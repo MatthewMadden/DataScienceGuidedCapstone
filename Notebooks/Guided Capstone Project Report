@@ -1,0 +1,27 @@
+The business team at Big Mountain resort had a simple question, the answer to which could lead to the most important outcome for the resort and its overall future success. The question was this: How can we improve the value of our ticket price? 
+
+This sparked a number of valid questions that were in need of exploring:
+- Should we look at measures to reduce cost? 
+- Should we look at making improvements in some area of the resort experience, which would justify raising the ticket price?
+- Should we do both?
+- What elements of the resort are perceived to be most valuable by customers and, thus, make the most sense to focus on time on optimizing?
+
+These are all important and related questions, and so our team (the Big Mountain Data Science team) was brought in to use the data available to help the business team get clarity on these questions and determine recommendations on the next best action(s)they should consider.
+
+To perform our analysis, we had resort market data available to us. We also incorporated a useful state dataset to enrich our understanding of certain state level information that was also helpful to consider, as we set out to answer these questions.  After wrangling and exploring the data, we decided that it made sense to look at resort states across all states equally, and so we built a model to help us determine what are the key resort features that have the strongest correlation to price.
+
+It started to become clear that the following elements have the biggest potential to focus on to boost ticket value: 
+- Vertical Drop
+- Total Snow Making (by acreage)
+- Total Chairs
+- Total FastQuad Ski Lifts
+- Total Runs
+- Longest Run Length (by mileage)
+- Total Trams
+- Total Skiable Terrain (by acreage)
+
+After thorough exploration of these elements, we narrowed this list down to the lowest hanging fruit that the model was suggesting: total runs, vertical drop, total chairs, and total snow making. 
+
+Specifically, our modeling suggests that if Big Mountain added an extra run, to thus increase the vertical drop by 150 feet, as well as install an additional chair lift and add 2 acres of snowmaking in the process, then a ticket increase of 18.50 per ticket could be justified. The net result of this is a projected $3M+ in additional revenue per year (assuming 350,000 visitors per year that each ski for an avg of 5 days per year).
+
+That being the case, we are recommending that Big Moutain Resort start their transformation by first adding an additional run and extra lift. In doing so, they should increase their per ticket price by $16 - $18, with a well-executed marketing plan that educates their customers on the coming price increase and the new features that justify it. Pursuing this as a first step will serve as a good test to evaluate the market receptiveness to the initial price increase that we have described. From there, if things are trending in line with modeled expectations, then we recommend that Big Mountain Resport take the follow-on step of expanding into 2 additional acres of snowmaking, which will help further justify the increased price. As noted above, our modeling suggests that increases to the acreage covered by snow making helps to justify a higher ticket price, based on the market data we had available for this analysis. 
